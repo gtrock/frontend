@@ -9,3 +9,5 @@ http.createServer( function(request,response){
 	response.end('');
 	
 }).listen(8888);
+
+console.log("Server is running at localhost: 8888")
